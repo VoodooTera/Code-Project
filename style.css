@@ -1,0 +1,48 @@
+
+body {
+    background-image: url("https://i.pinimg.com/originals/7d/fa/62/7dfa6248aec8faa529622f2b1b12a6f8.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+h1{ text-align: right;
+    color: black;
+    font-family: "Knewave";
+    text-shadow: 3px 2px red;
+}
+
+p {font-family: "Knewave";
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin: 100px;
+    text-shadow: 3px 2px red;
+}
+
+.icon-bar {
+    width: 100px; /* Set a specific width */
+    background-color: black; /* Dark-grey background */
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: black; /* White text color */
+    font-size: 36px; /* Increased font-size */
+    text-shadow: 3px 2px red;
+    font-family: "Knewave";
+}
+
+.icon-bar a:hover {
+    background-color:black ; /* Add a hover color */
+    
+}
+
+.active {
+    background-color: ; /* Add an active/current color */
+}
+
